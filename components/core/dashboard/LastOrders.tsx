@@ -1,6 +1,5 @@
 'use client'
 
-import ViewIcon from '@/components/icons/home/view.svg'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import Link from '@/components/ui/link'
 import {
@@ -13,6 +12,7 @@ import {
 } from '@/components/ui/table'
 import { lastOrdersList } from '@/lib/constants'
 import { cn } from '@/lib/utils'
+import ViewOrder from './view_order'
 
 const LastOrders = () => {
   const tableHeaderClass =
@@ -78,12 +78,7 @@ const LastOrders = () => {
                     {invoice.status}
                   </TableCell>
                   <TableCell className='float-right'>
-                    <button className='flex items-center gap-[0.375rem]'>
-                      <ViewIcon className='dark:fill-white' />{' '}
-                      <span className='text-[#0D062D] dark:text-white/40 font-jakarta-sans text-[0.875rem]'>
-                        View
-                      </span>
-                    </button>
+                    <ViewOrder item={invoice} />
                   </TableCell>
                 </TableRow>
               ))}

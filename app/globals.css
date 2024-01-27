@@ -13,7 +13,31 @@
 
 @font-face {
   font-family: 'Plus Jakarta Sans';
-  src: url('../public/assets/fonts/plus-jakarta-sans-cufonfonts/PlusJakartaSans[wght].ttf')
+  src: url('../public/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../public/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf')
+    format('truetype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../public/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf')
+    format('truetype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../public/assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf')
     format('truetype');
   font-weight: normal;
   /* font-style: normal; */
