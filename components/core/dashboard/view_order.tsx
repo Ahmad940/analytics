@@ -52,7 +52,7 @@ const ViewOrder = ({ item }: { item: any }) => {
             <AlertDescription className='text-red-600'>$5.00</AlertDescription>
           </Alert>
           <Alert>
-            <TrendUpIcon className='h-4 w-4' />
+            <TrendUpIcon />
             <AlertTitle>Invoice Type</AlertTitle>
             <AlertDescription>
               <span className='text-green-600'>Paid</span>
