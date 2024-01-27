@@ -73,7 +73,7 @@ const HomeView = () => {
           </motion.div>
         </div>
 
-        <div>
+        <div className='md:hidden'>
           {/* Stats */}
           <motion.div
             initial={{ scale: 0, x: '-100vw' }} // Start off-screen to the left
